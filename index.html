@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html class="loading">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+        <title>CHECKOUT GRABBER [ @MRINVICTUS ]</title>
+
+        <!-- Stylesheet -->
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://mrinvictus.duckdns.org/theme-assets/css/core/menu/menu-types/vertical-menu.css">
+        <link rel="stylesheet" type="text/css" href="https://mrinvictus.duckdns.org/theme-assets/css/core/colors/palette-gradient.css">
+        <link rel="stylesheet" type="text/css" href="https://mrinvictus.duckdns.org/theme-assets/css/vendors.css">
+        <link rel="stylesheet" type="text/css" href="https://mrinvictus.duckdns.org/theme-assets/css/app-lite.css">
+        <link rel="stylesheet" type="text/css" href="https://mrinvictus.duckdns.org/theme-assets/css/custom.css">
+    </head>
+    <body class="vertical-layout">
+        <div class="app-content content">
+        <div class="content-wrapper">
+            <div class="content-body">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <h4 class="mb-2"><strong>CHECKOUT GRABBER [ <a href="https://telegram.me/MRINVICTUS" target="_blank">@MRINVICTUS</a> ]</strong></h4>
+                                <input class="form-control" style="width: 69%; float: left;" id="checkout_link" placeholder="Checkout Link">
+                                <button class="btn btn-play btn-glow btn-bg-gradient-x-blue-cyan text-white" style="width: 29%; float: right;" id="grab">GRAB</button>
+                            </div>
+                            <div class="card-body">
+                                <p>CS LIVE: <span id="cs_live"></span>
+                                    <span class="badge badge-secondary" onclick="copy('#cs_live')"><i class="fa fa-clone"></i></span>
+                                </p>
+                                <p>PK LIVE: <span id="pk_live"></span>
+                                    <span class="badge badge-secondary" onclick="copy('#pk_live')"><i class="fa fa-clone"></i></span>
+                                </p>
+                                <p>CUSTOMER EMAIL: <span id="customer_email"></span>
+                                    <span class="badge badge-secondary" onclick="copy('#customer_email')"><i class="fa fa-clone"></i></span>
+                                </p>
+                                <p>AMOUNT:  <span id="amount"></span>
+                                    <span class="badge badge-secondary" onclick="copy('#amount')"><i class="fa fa-clone"></i></span>
+                                </p>
+                                <p>CURRENCY: <span id="currency"></span>
+                                    <span class="badge badge-secondary" onclick="copy('#currency')"><i class="fa fa-clone"></i></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://mrinvictus.duckdns.org/theme-assets/js/core/libraries/jquery.min.js" type="text/javascript"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+        <script src="https://mrinvictus.duckdns.org/theme-assets/js/main.js"></script>
+    </body>
+</html>
